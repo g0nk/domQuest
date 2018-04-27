@@ -1,0 +1,66 @@
+.container, .header{
+  width: 100vw;
+  text-align: center;
+
+
+}
+.quest{
+  display: inline-block;
+  border: 1px solid black;
+  box-shadow: 0px 0px 2px 1px #888888;
+  text-align: center;
+  width: 20%;
+  padding: 0px 20px 60px 20px;
+  background-color: orange;
+}
+.quest+.quest{
+  margin-left: 10%;
+  background-color: orange;
+}
+#smallQuest, #longQuest, #bossFight {
+  border-radius: 4px;
+  background-color: silver;
+  border: none;
+  color:inherit;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: crosshair;
+  margin:5px;
+}
+#smallQuest:hover {background-color: #3e8e41}
+#longQuest:hover {background-color: #3e8e41}
+#bossFight:hover {background-color: #3e8e41}
+
+#smallQuest:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#longQuest:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#bossFight:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+body {
+    background-color: lightblue;
+    height: 100%
+    background-size: cover;
+}
+
+.parallax{
+  background-image: url("imag0847.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
